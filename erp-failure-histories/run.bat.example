@@ -1,0 +1,11 @@
+@echo off
+setlocal
+set Cybozu_API_Token=<API token>
+set APP_ID=<app id>
+set BASE_URL=https://<your-domain>.cybozu.com/k/v1/records.json
+set OUTPUT=<filename>.csv
+
+Powershell -ExecutionPolicy Bypass -File Erp-Failure-Histories.ps1
+
+pause
+endlocal
