@@ -1,0 +1,9 @@
+@echo off
+setlocal
+set DATASOURCE=<入力CSVファイルパス>
+set OUTPUT=<出力CSVファイルパス>
+
+Powershell -ExecutionPolicy Bypass -File ConvertFrom-DomainAdmins.ps1
+
+pause
+endlocal
