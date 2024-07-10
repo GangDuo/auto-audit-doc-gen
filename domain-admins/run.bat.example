@@ -1,7 +1,7 @@
 @echo off
 setlocal
-set DATASOURCE=<入力CSVファイルパス>
-set OUTPUT=<出力CSVファイルパス>
+set DATASOURCE=<蜈･蜉佞SV繝輔ぃ繧､繝ｫ繝代せ>
+set OUTPUT=<蜃ｺ蜉佞SV繝輔ぃ繧､繝ｫ繝代せ>
 
 Powershell -ExecutionPolicy Bypass -File ConvertFrom-DomainAdmins.ps1
 
